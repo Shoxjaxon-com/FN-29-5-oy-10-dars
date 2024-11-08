@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins';
+}
+.todo{
+    max-width: 364px;
+    margin: 149px auto;
+}
+.logo h1{
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    color:#000000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.logo p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #525252;
+    text-align: center;
+    margin-bottom: 24px;
+}
+#user{
+    width: 364px;
+    margin-bottom: 18px;
+    height: 52px;
+    border-radius: 16px;
+    border-color: #F0EDFFCC;
+    background-color: #F0EDFFCC;
+    border: none;
+    background-image: url(../img/Frame.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 18px;
+    padding-left: 46px;
+    font-size: larger;
+}
+#password{
+    width: 364px;
+    margin-bottom: 18px;
+    height: 52px;
+    border-radius: 16px;
+    border-color: #F0EDFFCC;
+    background-color: #F0EDFFCC;
+    border: none;
+    background-image: url(../img/Vector.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 18px;
+    padding-left: 46px;
+    font-size: larger;
+}
+.inputs a{
+    display: block;
+    text-decoration: none;
+    border: 1px solid #9181F4;
+    width: 124px;
+    background-color: #5038ED;
+    color: #fff;
+    padding: 17px 20px;
+    border-radius: 16px;
+    margin: 24px auto; 
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+}
+.login span{
+font-weight: 700;
+font-size: 16px;
+color: #000000;
+}
+.login{
+    display: block;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.google{
+    border: 1px solid #F0EDFF;
+    width: 364px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 100px;
+    gap: 8px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+.facebook{
+    border: 1px solid #F0EDFF;
+    width: 364px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 90px;
+    gap: 8px;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+#user{
+    padding-left: 40px;
+}
+#password{
+    padding-left: 40px;
+}
